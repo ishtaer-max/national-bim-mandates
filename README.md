@@ -1,5 +1,7 @@
 # National BIM mandates: regulatory status by jurisdiction
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24496847.svg)](https://doi.org/10.5281/zenodo.24496847)
+
 The dataset behind the **[World BIM Mandates Map](https://solebo.org/bim-mandates/)** (Solebo). Last reviewed: 14 June 2026.
 
 59 jurisdictions, each anchored to an **official primary source** — a government decree, law, circular, adopted standard or official programme page. No aggregators, vendors or consultancies are cited as the source of a mandate. 95 source links in total.
@@ -38,4 +40,4 @@ Found a newer decree, a broken link or a jurisdiction we missed? Open an issue w
 
 ## Cite
 
-> Shtaer, I. (2026) *National BIM mandates: regulatory status by jurisdiction* (v1.0) [Data set]. Solebo. https://solebo.org/bim-mandates/
+> Shtaer, I. (2026) *National BIM mandates: regulatory status by jurisdiction* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24496847 — https://solebo.org/bim-mandates/
