@@ -1,0 +1,1514 @@
+{
+  "dataset": "National BIM mandates: regulatory status by jurisdiction",
+  "version": "1.0",
+  "last_reviewed": "2026-06-14",
+  "author": "Ivan Shtaer",
+  "publisher": "Solebo",
+  "source_page": "https://solebo.org/bim-mandates/",
+  "licence": "CC BY 4.0",
+  "status_scale": {
+    "mandatory": "BIM legally/contractually required now for a defined class of (usually public) projects",
+    "partial": "required by value threshold, sector, phase-in, or by a specific public agency rather than nationwide",
+    "voluntary": "official roadmap / strategy / declaration / recommended standard, not yet binding"
+  },
+  "ifc_scale": {
+    "required": "IFC (ISO 16739) required for exchange",
+    "adopted": "ISO 16739 (IFC) adopted nationally",
+    "process": "IFC used · process standards (ISO 19650)",
+    "developing": "Standards in development",
+    "none": "Minimal / none"
+  },
+  "qualification_scale": {
+    "standard": "National occupational standard",
+    "certification": "Certification / accreditation scheme",
+    "emerging": "Training pathways (emerging)",
+    "none": "Minimal / none"
+  },
+  "eu_context": {
+    "title": "EU Directive 2014/24/EU, Art. 22(4) — permits member states to require BIM in public procurement",
+    "url": "https://eur-lex.europa.eu/eli/dir/2014/24/oj/eng",
+    "lang": "en"
+  },
+  "note": "Every entry is anchored to an official primary source (decree, law, circular, adopted standard or official government programme). Some government portals are geo-restricted or JavaScript-rendered.",
+  "records": 59,
+  "jurisdictions": [
+    {
+      "iso2": "GB",
+      "iso3": "GBR",
+      "name": "United Kingdom",
+      "region": "Europe",
+      "mandate_status": "mandatory",
+      "instrument": "Level 2 BIM mandate (2016, from the 2011 Government Construction Strategy); enforced in public procurement via The Construction Playbook (UK BIM Framework / BS EN ISO 19650)",
+      "authority": "Cabinet Office; Infrastructure and Projects Authority (IPA)",
+      "effective": "Level 2 BIM mandatory for central-government projects since April 2016; UK BIM Framework required for public works on a 'comply or explain' basis",
+      "summary": "More than a roadmap. Collaborative (Level 2) BIM has been required on all centrally-procured central-government projects since April 2016, and the Construction Playbook obliges central departments and their arm's-length bodies — on a 'comply or explain' basis — to apply the UK BIM Framework (BS EN ISO 19650) in how public works are procured and delivered; the IPA's Transforming Infrastructure Performance roadmap carries it forward.",
+      "ifc_level": "adopted",
+      "ifc_standards": "BS EN ISO 16739 (IFC schema); ISO 19650 process; IFC not mandated for exchange",
+      "qualification_level": "standard",
+      "qualification_scheme": "Digital Engineering Technician occupational standard (ST0266); RICS / BSI ISO 19650 individual certification",
+      "sources": [
+        {
+          "title": "The Construction Playbook — GOV.UK (Cabinet Office)",
+          "url": "https://www.gov.uk/government/publications/the-construction-playbook",
+          "lang": "en"
+        },
+        {
+          "title": "Government Construction Strategy — GOV.UK",
+          "url": "https://www.gov.uk/government/publications/government-construction-strategy",
+          "lang": "en"
+        },
+        {
+          "title": "Transforming Infrastructure Performance: Roadmap to 2030 — GOV.UK",
+          "url": "https://www.gov.uk/government/publications/transforming-infrastructure-performance-roadmap-to-2030",
+          "lang": "en"
+        },
+        {
+          "title": "UK BIM Framework / IMI Framework (BS EN ISO 19650)",
+          "url": "https://imiframework.org/",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "iso2": "IT",
+      "iso3": "ITA",
+      "name": "Italy",
+      "region": "Europe",
+      "mandate_status": "mandatory",
+      "instrument": "Decreto Ministeriale n. 560/2017 (Decreto BIM), amended by DM 312/2021",
+      "authority": "Ministero delle Infrastrutture e dei Trasporti (MIT)",
+      "effective": "Phased from 1 Jan 2019 (works ≥ €100M), cascading to public works ≥ €1M from 2025",
+      "summary": "Progressive mandatory introduction of electronic modelling methods (BIM) by contracting authorities and operators across design, construction and management of public works, starting with the highest-value contracts.",
+      "ifc_level": "adopted",
+      "ifc_standards": "UNI EN ISO 16739 (IFC); UNI 11337; ISO 19650 process",
+      "qualification_level": "certification",
+      "qualification_scheme": "UNI 11337-7 BIM roles; ICMQ certification (Accredia, UNI/PdR 78)",
+      "sources": [
+        {
+          "title": "Decreto Ministeriale n. 560 del 01/12/2017 — mit.gov.it",
+          "url": "https://www.mit.gov.it/normativa/decreto-ministeriale-numero-560-del-01122017",
+          "lang": "it"
+        }
+      ]
+    },
+    {
+      "iso2": "ES",
+      "iso3": "ESP",
+      "name": "Spain",
+      "region": "Europe",
+      "mandate_status": "mandatory",
+      "instrument": "Orden PCM/818/2023 — Plan BIM en la contratación pública de la AGE",
+      "authority": "Comisión Interministerial BIM (CIBIM) / Ministerio de la Presidencia",
+      "effective": "Mandate since 2016 (tenders > €2M from 2018); Plan BIM 2023 phases adoption 2024–2030",
+      "summary": "Establishes a mandatory BIM requirement in certain public contracts of the General State Administration and dependent bodies, on a progressive calendar designed to protect SME access.",
+      "ifc_level": "required",
+      "ifc_standards": "UNE-EN ISO 16739 (IFC); openBIM required in public procurement (Plan BIM)",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART Spain Professional Certification (Foundation / Practitioner)",
+      "sources": [
+        {
+          "title": "Orden PCM/818/2023 — BOE-A-2023-16784",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-16784",
+          "lang": "es"
+        },
+        {
+          "title": "Comisión Interministerial BIM (CIBIM) — cibim.transportes.gob.es",
+          "url": "https://cibim.transportes.gob.es/",
+          "lang": "es"
+        }
+      ]
+    },
+    {
+      "iso2": "IE",
+      "iso3": "IRL",
+      "name": "Ireland",
+      "region": "Europe",
+      "mandate_status": "mandatory",
+      "instrument": "BIM requirements in the Capital Works Management Framework (CWMF)",
+      "authority": "Office of Government Procurement",
+      "effective": "From January 2024; phased by value, full coverage of public works by ~2028",
+      "summary": "Public works contracts incorporate BIM via the CWMF, beginning with the highest-value projects and extending to design teams and contractors at progressively lower thresholds; aligned with ISO 19650.",
+      "ifc_level": "adopted",
+      "ifc_standards": "I.S. EN ISO 16739 (IFC); ISO 19650 (CWMF)",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART UK & Ireland certification; RICS / CIOB",
+      "sources": [
+        {
+          "title": "BIM requirements in the CWMF from January 2024 — cwmf.gov.ie",
+          "url": "https://cwmf.gov.ie/en/news/bim-requirements-in-the-cwmf-from-january-2024/",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "iso2": "FI",
+      "iso3": "FIN",
+      "name": "Finland",
+      "region": "Europe",
+      "mandate_status": "mandatory",
+      "instrument": "Decree 751/2023 on information management in public construction",
+      "authority": "Finnish Government (Ympäristöministeriö)",
+      "effective": "In force from January 2025",
+      "summary": "Legal requirement for digital design and information management in public construction commissioned by state authorities, requiring BIM-based, machine-readable documentation and lifecycle data handovers.",
+      "ifc_level": "required",
+      "ifc_standards": "SFS-EN ISO 16739 (IFC); IFC for building-permit models",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART Nordic Professional Certification",
+      "sources": [
+        {
+          "title": "Asetus 751/2023 — Finlex (säädöskokoelma)",
+          "url": "https://finlex.fi/fi/lainsaadanto/saadoskokoelma/2023/751",
+          "lang": "fi"
+        }
+      ]
+    },
+    {
+      "iso2": "DK",
+      "iso3": "DNK",
+      "name": "Denmark",
+      "region": "Europe",
+      "mandate_status": "mandatory",
+      "instrument": "Bekendtgørelse nr. 118 af 06/02/2013 (ICT requirements in public construction)",
+      "authority": "Bygningsstyrelsen (Danish Building & Property Agency)",
+      "effective": "2013 (building on 'Det Digitale Byggeri' since 2007)",
+      "summary": "ICT/BIM requirements — object-based digital models, digital tendering and handover — are legally required for public construction above value thresholds (≈ DKK 5M state-funded; DKK 20M municipal/regional).",
+      "ifc_level": "required",
+      "ifc_standards": "DS/EN ISO 16739 (IFC); IFC exchange required under ICT regulations",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART Nordic Professional Certification",
+      "sources": [
+        {
+          "title": "Bekendtgørelse nr. 118 (2013) — retsinformation.dk",
+          "url": "https://www.retsinformation.dk/eli/lta/2013/118",
+          "lang": "da"
+        }
+      ]
+    },
+    {
+      "iso2": "LT",
+      "iso3": "LTU",
+      "name": "Lithuania",
+      "region": "Europe",
+      "mandate_status": "mandatory",
+      "instrument": "Government resolution (2021) + Owner Information Requirements",
+      "authority": "Lietuvos Respublikos aplinkos ministerija (Ministry of Environment)",
+      "effective": "In force from 25 Feb 2022; thresholds ≥ €5M (buildings) / €10M (engineering structures)",
+      "summary": "Public-sector contracting authorities must include mandatory BIM requirements in procurement documents for design and works on special-category buildings ≥ €5M and engineering structures ≥ €10M.",
+      "ifc_level": "adopted",
+      "ifc_standards": "LST EN ISO 16739 (IFC); ISO 19650 owner information requirements",
+      "qualification_level": "emerging",
+      "qualification_scheme": "University / vocational BIM training; no national scheme",
+      "sources": [
+        {
+          "title": "Aplinkos ministerija — Įsakymas D1-57 (Užsakovo informacijos reikalavimai / BIM) — e-tar.lt",
+          "url": "https://www.e-tar.lt/portal/lt/legalAct/df1cf1c0956e11ecaf3aba0cb308998c",
+          "lang": "lt"
+        }
+      ]
+    },
+    {
+      "iso2": "RU",
+      "iso3": "RUS",
+      "name": "Russia",
+      "region": "Europe",
+      "mandate_status": "mandatory",
+      "instrument": "Town Planning Code Art. 57.5 (information model); Government Decrees No. 1431/2020 and No. 331/2021",
+      "authority": "Government of the Russian Federation (Minstroy)",
+      "effective": "Mandatory for budget-funded objects from 1 Jan 2022; extended to residential developers 2024–2025",
+      "summary": "The Town Planning Code (Art. 57.5, introduced by Federal Law 151-FZ) establishes the legal concept of the construction information model; Decree No. 1431 sets the rules for forming and maintaining it, and Decree No. 331 made information modelling (TIM) mandatory for capital-construction objects financed from the budget system — later extended to residential developers.",
+      "ifc_level": "required",
+      "ifc_standards": "ГОСТ Р 10.0.02-2019 = ISO 16739:2018 (identical IFC schema); IFC required for exchange with expertise / state construction-supervision authorities; Minstroy XML schema builds on it; СП 333 is a code of practice, not a schema",
+      "qualification_level": "standard",
+      "qualification_scheme": "Profstandard «Специалист в сфере ИМ в строительстве» (Минтруд №562н/2024); independent qualification assessment (НОК, FZ-238)",
+      "sources": [
+        {
+          "title": "Town Planning Code Art. 57.5 — introduced by Federal Law 151-FZ (27.06.2019), publication.pravo.gov.ru",
+          "url": "http://publication.pravo.gov.ru/Document/View/0001201906270037",
+          "lang": "ru"
+        },
+        {
+          "title": "Government Decree No. 1431 (15.09.2020) — rules for the information model, publication.pravo.gov.ru",
+          "url": "http://publication.pravo.gov.ru/Document/View/0001202009220002",
+          "lang": "ru"
+        },
+        {
+          "title": "Government Decree No. 331 (05.03.2021) — mandatory TIM, publication.pravo.gov.ru",
+          "url": "http://publication.pravo.gov.ru/Document/View/0001202103100026",
+          "lang": "ru"
+        }
+      ]
+    },
+    {
+      "iso2": "FR",
+      "iso3": "FRA",
+      "name": "France",
+      "region": "Europe",
+      "mandate_status": "voluntary",
+      "instrument": "Plan BIM (and predecessors PTNB / Plan BIM 2022)",
+      "authority": "Ministère de la Transition écologique",
+      "effective": "Programme since 2015; voluntary by design",
+      "summary": "France deliberately chose a voluntary, support-and-awareness approach rather than a legal mandate; individual public buyers may require BIM case-by-case, but there is no national obligation.",
+      "ifc_level": "adopted",
+      "ifc_standards": "NF EN ISO 16739 (IFC); ISO 19650; openBIM (Plan BIM)",
+      "qualification_level": "standard",
+      "qualification_scheme": "RNCP state title 'Coordinateur BIM'; buildingSMART (Mediaconstruct) certification",
+      "sources": [
+        {
+          "title": "Le bâtiment numérique — ecologie.gouv.fr",
+          "url": "https://www.ecologie.gouv.fr/politiques-publiques/batiment-numerique",
+          "lang": "fr"
+        }
+      ]
+    },
+    {
+      "iso2": "DE",
+      "iso3": "DEU",
+      "name": "Germany",
+      "region": "Europe",
+      "mandate_status": "partial",
+      "instrument": "Stufenplan Digitales Planen und Bauen (2015)",
+      "authority": "Bundesministerium für Verkehr (BMV)",
+      "effective": "BIM as standard for new federal transport infrastructure from 2020",
+      "summary": "No general statutory mandate across all public construction, but BIM is the required standard for newly planned federal transport infrastructure (roads, rail, waterways) under the Stufenplan roadmap.",
+      "ifc_level": "adopted",
+      "ifc_standards": "DIN EN ISO 16739 (IFC); ISO 19650; openBIM for federal transport",
+      "qualification_level": "certification",
+      "qualification_scheme": "VDI/bS 2552 Blatt 8 qualification levels; buildingSMART Deutschland + VDI certification",
+      "sources": [
+        {
+          "title": "Stufenplan Digitales Planen und Bauen — bmv.de",
+          "url": "https://www.bmv.de/SharedDocs/DE/Publikationen/G/stufenplan-digitales-bauen.html",
+          "lang": "de"
+        }
+      ]
+    },
+    {
+      "iso2": "CZ",
+      "iso3": "CZE",
+      "name": "Czech Republic",
+      "region": "Europe",
+      "mandate_status": "partial",
+      "instrument": "Act No. 330/2025 Sb. — Zákon o BIM (Act on management of information about construction and the built environment)",
+      "authority": "Ministerstvo průmyslu a obchodu (MPO); Česká agentura pro standardizaci (ČAS)",
+      "effective": "Adopted 2025 (330/2025 Sb.); mandatory building information model for above-threshold public works (≈ CZK 135M) from 1 Jan 2027; built-environment model from 2030; some information containers from 2032",
+      "summary": "The adopted BIM Act (Act No. 330/2025 Sb., signed July 2025) makes a building information model mandatory for above-threshold (nadlimitní, ≈ CZK 135M) public works contracts and their design, procured by the state (its organisational units and subordinate bodies) and the regions and their organisations, with defined exceptions. The Act takes effect on 1 January 2027 (built-environment model from 2030; certain information containers from 2032), replacing the earlier voluntary concept.",
+      "ifc_level": "adopted",
+      "ifc_standards": "ČSN EN ISO 16739 (IFC); national data standard (DSS) under the BIM Act 330/2025 Sb.",
+      "qualification_level": "standard",
+      "qualification_scheme": "BIM qualification in the National Qualifications System (Národní soustava kvalifikací); czBIM certification",
+      "sources": [
+        {
+          "title": "Zákon o BIM (Act No. 330/2025 Sb.) — official announcement — koncepcebim.gov.cz",
+          "url": "https://koncepcebim.gov.cz/ucinen-vyznamny-legislativni-krok-k-podpore-digitalizace-ve-stavebnictvi-senat-schvalil-tzv-zakon-o-bim/",
+          "lang": "cs"
+        },
+        {
+          "title": "Sbírka zákonů — zákon č. 330/2025 Sb. — e-sbirka.gov.cz",
+          "url": "https://www.e-sbirka.cz/sb/2025/330",
+          "lang": "cs"
+        }
+      ]
+    },
+    {
+      "iso2": "PL",
+      "iso3": "POL",
+      "name": "Poland",
+      "region": "Europe",
+      "mandate_status": "partial",
+      "instrument": "BIM roadmap for public procurement (Ministry of Development and Technology)",
+      "authority": "Ministerstwo Rozwoju i Technologii",
+      "effective": "Roadmap 2020; BIM mandatory for public projects > €410M from 2025, all public projects by 2030",
+      "summary": "Following the 2020 roadmap, BIM became mandatory for the largest public projects (over €410M) from 2025, with the requirement set to extend to all public projects by 2030; IFC delivery is expected in public procurement.",
+      "ifc_level": "required",
+      "ifc_standards": "PN-EN ISO 16739 (IFC); IFC required in public procurement",
+      "qualification_level": "emerging",
+      "qualification_scheme": "BIM training via providers; no official occupational standard",
+      "sources": [
+        {
+          "title": "Mapa drogowa BIM w zamówieniach publicznych — gov.pl",
+          "url": "https://www.gov.pl/web/rozwoj-technologia/mapa-drogowa-dla-wdrozenia-metodyki-bim-w-zamowieniach-publicznych",
+          "lang": "pl"
+        }
+      ]
+    },
+    {
+      "iso2": "EE",
+      "iso3": "EST",
+      "name": "Estonia",
+      "region": "Europe",
+      "mandate_status": "voluntary",
+      "instrument": "Declaration of Intent on Digital Construction + BIM-based e-permitting",
+      "authority": "Ministry of Economic Affairs and Communications",
+      "effective": "Declaration 2017; IFC-model building-permit submission available from 2024",
+      "summary": "No national legal mandate; a voluntary inter-agency declaration drives adoption, and the state e-construction platform now accepts open IFC BIM models for building permits.",
+      "ifc_level": "required",
+      "ifc_standards": "EVS-EN ISO 16739 (IFC); IFC-based building-permit submission",
+      "qualification_level": "emerging",
+      "qualification_scheme": "University / vocational BIM training",
+      "sources": [
+        {
+          "title": "Declaration of Intent on Digital Construction (PDF) — mkm.ee",
+          "url": "https://www.mkm.ee/sites/default/files/documents/2022-03/avaliku_sektori_tellijate_uhiste_kavatsust_0.pdf",
+          "lang": "et"
+        }
+      ]
+    },
+    {
+      "iso2": "US",
+      "iso3": "USA",
+      "name": "United States",
+      "region": "Americas",
+      "mandate_status": "partial",
+      "instrument": "GSA agency requirement (model-based design + IFC); binding state mandates — WI, TX, OH, GA, MA",
+      "authority": "U.S. General Services Administration (GSA); state facilities agencies; NIBS (standard)",
+      "effective": "GSA requires native + IFC deliverables; states require BIM for state-funded buildings above value thresholds",
+      "summary": "No federal BIM law. Much US activity is program and guidance — the GSA BIM Guides and the consensus National BIM Standard-US (NBIMS-US, NIBS). Binding requirements exist at two levels: the GSA requires model-based design with native + IFC deliverables on its federal projects, and five states mandate BIM for their own state-funded buildings — Wisconsin (first, 2009; now > $15M new / > $3M tenant-improvement), Texas (TFC), Ohio (OFCC), Georgia (GSFIC) and Massachusetts (DCAMM, ≥ $1M). Others publish BIM guidelines only (e.g. New York, Tennessee, Florida), and several DOTs (TxDOT, Caltrans, Iowa) mandate digital delivery for transport infrastructure; most states have no requirement.",
+      "ifc_level": "required",
+      "ifc_standards": "IFC (ISO 16739) via NBIMS-US; GSA & AASHTO require IFC; no single national adoption",
+      "qualification_level": "certification",
+      "qualification_scheme": "AGC CM-BIM certificate; buildingSMART USA (BIMForum)",
+      "sources": [
+        {
+          "title": "GSA — National 3D-4D-BIM Program: BIM Guide (PDF)",
+          "url": "https://www.gsa.gov/system/files/BIM_Guide_Series_04_v1.pdf",
+          "lang": "en"
+        },
+        {
+          "title": "Wisconsin DFD — BIM Guidelines (PDF)",
+          "url": "https://doa.wi.gov/DFDM_Documents/MasterSpecs/BIM/BIMGuidelines.pdf",
+          "lang": "en"
+        },
+        {
+          "title": "Texas TFC — A/E Guidelines, BIM Standards (PDF)",
+          "url": "https://www.tfc.texas.gov/divisions/facilities/prog/construct/formsindex/01%20-%202018%20A-E%20GUIDELINES.pdf",
+          "lang": "en"
+        },
+        {
+          "title": "Ohio OFCC — State of Ohio BIM Protocol (M830-01, PDF)",
+          "url": "https://dam.assets.ohio.gov/image/upload/ofcc.ohio.gov/Portals/0/Documents/Resources/Publications/M830-01-BIMProtocol.pdf",
+          "lang": "en"
+        },
+        {
+          "title": "Georgia GSFIC — BIM Guide (PDF)",
+          "url": "https://gsfic.georgia.gov/document/publication/building-information-modeling-bim-guide/download",
+          "lang": "en"
+        },
+        {
+          "title": "Massachusetts DCAMM — BIM Guidelines for Design & Construction",
+          "url": "https://www.mass.gov/info-details/bim-guidelines-for-design-and-construction",
+          "lang": "en"
+        },
+        {
+          "title": "National BIM Standard-US (NBIMS-US v4) — NIBS (consensus standard)",
+          "url": "https://nibs.org/nbims/v4/",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "iso2": "BR",
+      "iso3": "BRA",
+      "name": "Brazil",
+      "region": "Americas",
+      "mandate_status": "mandatory",
+      "instrument": "Decreto nº 10.306/2020 (Estratégia BIM BR)",
+      "authority": "Presidência da República (federal decree)",
+      "effective": "Phase 1 from 1 Jan 2021; Phase 2 from 2024; Phase 3 from 2028",
+      "summary": "Mandates BIM in the execution of engineering works and services by federal public administration bodies, rolled out in three phases from design modelling through to lifecycle asset management.",
+      "ifc_level": "process",
+      "ifc_standards": "IFC used; ABNT NBR ISO 19650 (process); no ISO 16739 transposition",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART (BIM Fórum Brasil) Foundation certification",
+      "sources": [
+        {
+          "title": "Decreto nº 10.306/2020 — planalto.gov.br",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10306.htm",
+          "lang": "pt"
+        },
+        {
+          "title": "Estratégia BIM BR — governança — gov.br/mdic",
+          "url": "https://www.gov.br/mdic/pt-br/assuntos/sdic/building-information-modelling-bim/governanca",
+          "lang": "pt"
+        }
+      ]
+    },
+    {
+      "iso2": "PE",
+      "iso3": "PER",
+      "name": "Peru",
+      "region": "Americas",
+      "mandate_status": "mandatory",
+      "instrument": "Decreto Supremo Nº 289-2019-EF (Plan BIM Perú)",
+      "authority": "Ministerio de Economía y Finanzas (MEF)",
+      "effective": "Published 8 Sept 2019; progressive incorporation through the 2020s",
+      "summary": "Approves the progressive, obligatory incorporation of BIM into public investment for entities under the national public-investment system, on a phased adoption timeline managed by the MEF.",
+      "ifc_level": "developing",
+      "ifc_standards": "Plan BIM Perú; standards in development",
+      "qualification_level": "emerging",
+      "qualification_scheme": "Plan BIM Perú roles / competencies; no personal certification",
+      "sources": [
+        {
+          "title": "Decreto Supremo Nº 289-2019-EF — El Peruano",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/1804998-2",
+          "lang": "es"
+        },
+        {
+          "title": "Plan BIM Perú (marco normativo) — mef.gob.pe",
+          "url": "https://www.mef.gob.pe/planbimperu/planbim.html",
+          "lang": "es"
+        }
+      ]
+    },
+    {
+      "iso2": "CL",
+      "iso3": "CHL",
+      "name": "Chile",
+      "region": "Americas",
+      "mandate_status": "partial",
+      "instrument": "Estándar BIM para Proyectos Públicos (Plan BIM)",
+      "authority": "Plan BIM (Corfo) / Ministerio de Obras Públicas",
+      "effective": "MOP–Corfo agreement 2016; public-project requirement targeted from 2020",
+      "summary": "Plan BIM sets a national standard for public projects; BIM is required in Ministry of Public Works (MOP) tenders under that standard, while it remains optional for some other public bodies.",
+      "ifc_level": "process",
+      "ifc_standards": "IFC/openBIM used; Estándar BIM para Proyectos Públicos; ISO 19650",
+      "qualification_level": "emerging",
+      "qualification_scheme": "Plan BIM competency matrix + training; no personal certification",
+      "sources": [
+        {
+          "title": "Estándar BIM para Proyectos Públicos (Plan BIM / Corfo, PDF) — construye2025.cl",
+          "url": "https://construye2025.cl/wp-content/uploads/2022/07/Estandar-BIM.pdf",
+          "lang": "es"
+        },
+        {
+          "title": "Solicitud de Información BIM DS49 (MINVU, PDF)",
+          "url": "https://www.minvu.gob.cl/wp-content/uploads/2023/10/minvu-bim-pro-ds49-sdi.pdf",
+          "lang": "es"
+        }
+      ]
+    },
+    {
+      "iso2": "CO",
+      "iso3": "COL",
+      "name": "Colombia",
+      "region": "Americas",
+      "mandate_status": "voluntary",
+      "instrument": "Estrategia Nacional BIM 2020–2026",
+      "authority": "Ministerio de Vivienda / DNP",
+      "effective": "Launched November 2020; targets progressive mandatory use toward 2026",
+      "summary": "National strategy, coordinated by Minvivienda, the Ministry of Transport, DNP and FDN, aiming to make BIM progressively mandatory for public projects by 2026.",
+      "ifc_level": "developing",
+      "ifc_standards": "Estrategia BIM; standards in development",
+      "qualification_level": "emerging",
+      "qualification_scheme": "BIM training (Estrategia BIM); no formal scheme",
+      "sources": [
+        {
+          "title": "Estrategia Nacional BIM 2020–2026 (PDF) — DNP (colaboracion.dnp.gov.co)",
+          "url": "https://colaboracion.dnp.gov.co/CDT/Prensa/Estrategia-Nacional-BIM-2020-2026.pdf",
+          "lang": "es"
+        },
+        {
+          "title": "Estrategia Nacional BIM 2020–2026 — minvivienda.gov.co",
+          "url": "https://www.minvivienda.gov.co/node/44390",
+          "lang": "es"
+        }
+      ]
+    },
+    {
+      "iso2": "CR",
+      "iso3": "CRI",
+      "name": "Costa Rica",
+      "region": "Americas",
+      "mandate_status": "voluntary",
+      "instrument": "Estrategia Nacional BIM Costa Rica",
+      "authority": "Ministerio de Planificación Nacional y Política Económica (MIDEPLAN)",
+      "effective": "National strategy published February 2020",
+      "summary": "Costa Rica's national planning ministry (MIDEPLAN) published a national BIM strategy setting objectives and a roadmap for adopting BIM in public infrastructure; it is a strategy, not yet a binding requirement.",
+      "ifc_level": "developing",
+      "ifc_standards": "Estrategia Nacional BIM (MIDEPLAN); standards in development",
+      "qualification_level": "emerging",
+      "qualification_scheme": "BIM training (Estrategia Nacional BIM); no formal scheme",
+      "sources": [
+        {
+          "title": "Estrategia Nacional BIM Costa Rica — mideplan.go.cr",
+          "url": "https://www.mideplan.go.cr/node/1858",
+          "lang": "es"
+        }
+      ]
+    },
+    {
+      "iso2": "AR",
+      "iso3": "ARG",
+      "name": "Argentina",
+      "region": "Americas",
+      "mandate_status": "voluntary",
+      "instrument": "SIBIM — Estrategia de implementación BIM para obra pública",
+      "authority": "Ministerio de Obras Públicas",
+      "effective": "Programme launched 2017–2019; implementation roadmap to mid-2020s",
+      "summary": "SIBIM develops BIM principles, guidelines and pilots within the Ministry of Public Works' digital-transformation plan; a strategy/roadmap rather than a binding legal mandate.",
+      "ifc_level": "developing",
+      "ifc_standards": "SIBIM guidelines in development",
+      "qualification_level": "emerging",
+      "qualification_scheme": "BIM training; no formal scheme",
+      "sources": [
+        {
+          "title": "Plan de implementación de metodología BIM para obra pública — argentina.gob.ar",
+          "url": "https://www.argentina.gob.ar/noticias/plan-de-implementacion-de-metodologia-bim-para-obra-publica",
+          "lang": "es"
+        }
+      ]
+    },
+    {
+      "iso2": "AE",
+      "iso3": "ARE",
+      "name": "United Arab Emirates",
+      "region": "MENA",
+      "mandate_status": "mandatory",
+      "instrument": "Dubai Municipality Circular 9/1/2 (2023); Abu Dhabi DMT BIM guidelines",
+      "authority": "Dubai Municipality; Department of Municipalities and Transport (Abu Dhabi)",
+      "effective": "Dubai BIM requirements since 2013, updated 2023; Abu Dhabi guidelines ISO 19650-aligned",
+      "summary": "BIM is mandatory for large and special-use buildings (e.g. G+8 and above) at permitting stages in Dubai, enforced through the building-permit system; Abu Dhabi requires BIM submissions for relevant projects.",
+      "ifc_level": "required",
+      "ifc_standards": "Dubai: IFC required for permit submission; ISO 19650 (Abu Dhabi)",
+      "qualification_level": "emerging",
+      "qualification_scheme": "Provider / vendor BIM courses; no national scheme",
+      "sources": [
+        {
+          "title": "Dubai Municipality Circular 9/1/2 — dm.gov.ae",
+          "url": "https://www.dm.gov.ae/documents/circular-9-1-2/",
+          "lang": "ar"
+        },
+        {
+          "title": "ADM BIM Documentation Guidelines for Infrastructure (PDF) — dmt.gov.ae",
+          "url": "https://www.dmt.gov.ae/adm/-/media/Project/DMT/ADM/E-Library/0001-Jan-2022-Doc/ADM-BIM-002Documentation-Guidelines-for-Infrastructure-projects.pdf",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "iso2": "QA",
+      "iso3": "QAT",
+      "name": "Qatar",
+      "region": "MENA",
+      "mandate_status": "partial",
+      "instrument": "Ashghal BIM Standards (ABIMS)",
+      "authority": "Public Works Authority (Ashghal)",
+      "effective": "ABIMS v1 dated January 2022; ISO 19650-aligned",
+      "summary": "The Public Works Authority (Ashghal) incorporates its ABIMS standard into building-sector tendering requirements; an agency-level mandate rather than a nationwide statute.",
+      "ifc_level": "process",
+      "ifc_standards": "Ashghal ABIMS (ISO 19650-based); IFC used",
+      "qualification_level": "emerging",
+      "qualification_scheme": "Provider / vendor BIM courses; no national scheme",
+      "sources": [
+        {
+          "title": "Ashghal BIM Standard (ABIMS) — ashghal.gov.qa",
+          "url": "https://www.ashghal.gov.qa/en/Services/GIS%20and%20CAD%20Manuals/ASHGHAL%20BIM%20STANDARD/D0102_Abbreviations%20and%20Terminology_V1.pdf",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "iso2": "SG",
+      "iso3": "SGP",
+      "name": "Singapore",
+      "region": "Asia-Pacific",
+      "mandate_status": "mandatory",
+      "instrument": "BCA BIM e-submission via CORENET / CORENET X",
+      "authority": "Building and Construction Authority (BCA)",
+      "effective": "BIM e-submission mandatory for projects ≥ 5,000 m² (openBIM IFC+SG); CORENET X mandatory from 1 Oct 2025 (≥ 30,000 m²) and all new projects from 1 Oct 2026",
+      "summary": "Qualified Persons must submit coordinated BIM models in openBIM IFC+SG (ISO 16739) through CORENET X for regulatory approval. BIM e-submission applies to projects with GFA ≥ 5,000 m²; CORENET X submission is mandatory for new projects ≥ 30,000 m² from 1 October 2025 and for all new projects from 1 October 2026.",
+      "ifc_level": "required",
+      "ifc_standards": "IFC-SG — national IFC (ISO 16739) profile required via CORENET X",
+      "qualification_level": "certification",
+      "qualification_scheme": "BCA Academy BIM certification; buildingSMART Singapore",
+      "sources": [
+        {
+          "title": "CORENET X — Mandatory Submissions Circular (BCA/URA, Sep 2025, PDF) — info.corenet.gov.sg",
+          "url": "https://info.corenet.gov.sg/docs/default-source/bca-circulars/circular-for-corenet-x-implementation-2025464fd83c-24ac-473b-bd7d-83c4048f8d36.pdf?sfvrsn=43dad967_1",
+          "lang": "en"
+        },
+        {
+          "title": "CORENET X — overview & Code of Practice — info.corenet.gov.sg",
+          "url": "https://info.corenet.gov.sg/overview/about-corenet-x/overview-of-corenet-x",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "iso2": "HK",
+      "iso3": "HKG",
+      "name": "Hong Kong SAR",
+      "region": "Asia-Pacific",
+      "mandate_status": "mandatory",
+      "instrument": "DEVB Technical Circular (Works) No. 12/2020 — Adoption of BIM for Capital Works",
+      "authority": "Development Bureau (DEVB)",
+      "effective": "Effective 1 Jan 2021, for tenders invited on/after that date",
+      "summary": "Capital works projects with estimates over HK$30 million must use BIM across feasibility, design and construction stages, with defined mandatory BIM uses and CIC-certified BIM teams.",
+      "ifc_level": "process",
+      "ifc_standards": "CIC BIM Standards; ISO 19650; IFC used",
+      "qualification_level": "certification",
+      "qualification_scheme": "CIC Certified BIM Manager / Coordinator (Construction Industry Council)",
+      "sources": [
+        {
+          "title": "Technical Circular (Works) No. 12/2020 (PDF) — devb.gov.hk",
+          "url": "https://www.devb.gov.hk/filemanager/technicalcirculars/en/upload/381/1/C-2020-12-01.pdf",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "iso2": "JP",
+      "iso3": "JPN",
+      "name": "Japan",
+      "region": "Asia-Pacific",
+      "mandate_status": "mandatory",
+      "instrument": "MLIT BIM/CIM — application 'in principle' (原則適用)",
+      "authority": "Ministry of Land, Infrastructure, Transport and Tourism (MLIT)",
+      "effective": "From FY2023, applied in principle to MLIT-directed public works (except small-scale)",
+      "summary": "BIM/CIM is required in principle on MLIT directly-managed civil-works projects from FY2023 — 3D model deliverables, model-based design review and construction planning — with a hybrid IFC + PDF submission framework.",
+      "ifc_level": "required",
+      "ifc_standards": "MLIT BIM/CIM; IFC submission for code-checking (from 2025–2026); no JIS transposition",
+      "qualification_level": "certification",
+      "qualification_scheme": "BIM利用技術者試験 (ACSP); BIM/CIM管理技士 (JCITC); buildingSMART Japan",
+      "sources": [
+        {
+          "title": "MLIT BIM/CIM roadmap & submission framework (PDF) — mlit.go.jp",
+          "url": "https://www.mlit.go.jp/jutakukentiku/build/content/001762769.pdf",
+          "lang": "ja"
+        },
+        {
+          "title": "BIM/CIM standards hub — mlit.go.jp",
+          "url": "https://www.mlit.go.jp/tec/tec_fr_000158.html",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "iso2": "KR",
+      "iso3": "KOR",
+      "name": "South Korea",
+      "region": "Asia-Pacific",
+      "mandate_status": "partial",
+      "instrument": "Construction Industry BIM Basic Guidelines + 2030 Architecture BIM Roadmap",
+      "authority": "Ministry of Land, Infrastructure and Transport (MOLIT)",
+      "effective": "Announced Dec 2020; public-housing (LH) BIM scaling from 2021; full-BIM design by 2025",
+      "summary": "MOLIT guidelines apply BIM across construction sectors, with phased mandatory application beginning in public housing and integrated design-build projects, expanding to private buildings later in the decade.",
+      "ifc_level": "required",
+      "ifc_standards": "IFC required by agencies (PPS, LH); KBIMS; ISO 19650",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART Korea KBIMS qualification levels",
+      "sources": [
+        {
+          "title": "건설산업 BIM 기본지침 / 2030 BIM 로드맵 (정책자료) — molit.go.kr",
+          "url": "https://www.molit.go.kr/USR/policyData/m_34681/dtl.jsp?id=4516",
+          "lang": "ko"
+        }
+      ]
+    },
+    {
+      "iso2": "VN",
+      "iso3": "VNM",
+      "name": "Vietnam",
+      "region": "Asia-Pacific",
+      "mandate_status": "partial",
+      "instrument": "Decision No. 258/QĐ-TTg (2023) — BIM application roadmap",
+      "authority": "Prime Minister of Vietnam / Ministry of Construction",
+      "effective": "From 2023 for grade-I/special-grade works; from 2025 for grade-II and above",
+      "summary": "Prime Minister's roadmap mandates BIM for grade-I and special-grade construction works using public investment or state capital from 2023, extending to grade-II-and-above works from 2025.",
+      "ifc_level": "developing",
+      "ifc_standards": "BIM standards/guidelines in development",
+      "qualification_level": "emerging",
+      "qualification_scheme": "BIM training; no formal scheme",
+      "sources": [
+        {
+          "title": "Quyết định 258/QĐ-TTg — vanban.chinhphu.vn",
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=207592",
+          "lang": "vi"
+        }
+      ]
+    },
+    {
+      "iso2": "MY",
+      "iso3": "MYS",
+      "name": "Malaysia",
+      "region": "Asia-Pacific",
+      "mandate_status": "mandatory",
+      "instrument": "Pekeliling Perbendaharaan PK 1.15 — Pelaksanaan Building Information Modelling (BIM)",
+      "authority": "Ministry of Finance (Perbendaharaan); Public Works Department (JKR)",
+      "effective": "In force from 1 July 2025; BIM mandatory for new government building & infrastructure projects with a ceiling cost ≥ RM10 million (13th Malaysia Plan)",
+      "summary": "Treasury Circular PK 1.15 makes BIM a mandatory requirement in tender/contract documents for new government building and infrastructure projects with a ceiling cost of RM10 million and above (from the 13th Malaysia Plan), in force 1 July 2025; exemptions require written approval from the Director-General of Public Works (JKR).",
+      "ifc_level": "process",
+      "ifc_standards": "CIDB BIM standards; ISO 19650; IFC used",
+      "qualification_level": "emerging",
+      "qualification_scheme": "CIDB CICS competency framework; provider courses",
+      "sources": [
+        {
+          "title": "Pekeliling Perbendaharaan PK 1.15 — Pelaksanaan BIM (PDF) — treasury.gov.my",
+          "url": "https://ppp.treasury.gov.my/loadpdf/makluman/9b67e2f6-f2fd-4c9f-973e-62edc6216090",
+          "lang": "ms"
+        }
+      ]
+    },
+    {
+      "iso2": "CN",
+      "iso3": "CHN",
+      "name": "China",
+      "region": "Asia-Pacific",
+      "mandate_status": "voluntary",
+      "instrument": "GB/T 51212-2016 (recommended national standard) + municipal mandates",
+      "authority": "Ministry of Housing and Urban-Rural Development (MOHURD)",
+      "effective": "National standard in force 1 July 2017; Shanghai municipal mandate from 2017",
+      "summary": "The national BIM application standard is recommended (GB/T), not mandatory, so it does not compel BIM nationwide; binding requirements exist at municipal level — e.g. Shanghai mandates BIM for large government-invested projects.",
+      "ifc_level": "process",
+      "ifc_standards": "GB/T 51447 (IFC-based exchange); CN-IFC; Shenzhen SZ-IFC mandatory; no ISO 16739 adoption",
+      "qualification_level": "standard",
+      "qualification_scheme": "MoHRSS national occupational skill standard 建筑信息模型技术员 (2021); national BIM skill-level exam",
+      "sources": [
+        {
+          "title": "GB/T 51212-2016 issuing notice (Ann. 1380) — mohurd.gov.cn",
+          "url": "https://www.mohurd.gov.cn/gongkai/zhengce/zhengcefilelib/201702/20170228_231182.html",
+          "lang": "zh"
+        },
+        {
+          "title": "Shanghai BIM Guiding Opinions (沪府办发〔2014〕58号) — shanghai.gov.cn",
+          "url": "https://www.shanghai.gov.cn/nw32708/20200821/0001-32708_40724.html",
+          "lang": "zh"
+        }
+      ]
+    },
+    {
+      "iso2": "NZ",
+      "iso3": "NZL",
+      "name": "New Zealand",
+      "region": "Asia-Pacific",
+      "mandate_status": "voluntary",
+      "instrument": "NZ BIM Handbook + Construction Procurement Guidelines",
+      "authority": "Ministry of Business, Innovation and Employment (MBIE)",
+      "effective": "Industry-government programme; not legally mandated",
+      "summary": "Government supports BIM through the industry-government BIM Acceleration Committee and references it in the Construction Procurement Guidelines, but BIM is not legally mandated for government projects.",
+      "ifc_level": "process",
+      "ifc_standards": "NZ BIM Handbook; IFC used; no national schema adoption",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART Australasia / BSI NZ BIM professional qualification",
+      "sources": [
+        {
+          "title": "BIM in New Zealand — building.govt.nz",
+          "url": "https://www.building.govt.nz/projects-and-consents/planning-a-successful-build/scope-and-design/bim-in-nz",
+          "lang": "en"
+        },
+        {
+          "title": "BIM in construction procurement (PDF) — procurement.govt.nz",
+          "url": "https://www.procurement.govt.nz/assets/procurement-property/documents/building-information-modelling-construction-procurement.pdf",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "iso2": "UZ",
+      "iso3": "UZB",
+      "name": "Uzbekistan",
+      "region": "Eurasia",
+      "mandate_status": "mandatory",
+      "instrument": "Presidential Decree No. UP-5577 (2018) on state regulation in construction",
+      "authority": "President of the Republic of Uzbekistan",
+      "effective": "Information modelling obligatory for construction participants from 1 July 2019",
+      "summary": "A 2018 presidential decree introduced mandatory use of information modelling by all participants of the construction process (client, engineer, contractors) from mid-2019.",
+      "ifc_level": "developing",
+      "ifc_standards": "National BIM requirements in development",
+      "qualification_level": "none",
+      "qualification_scheme": "No notable national scheme confirmed",
+      "sources": [
+        {
+          "title": "Decree UP-5577 — lex.uz",
+          "url": "https://lex.uz/docs/4060068",
+          "lang": "ru"
+        }
+      ]
+    },
+    {
+      "iso2": "LV",
+      "iso3": "LVA",
+      "name": "Latvia",
+      "region": "Europe",
+      "mandate_status": "mandatory",
+      "instrument": "Amendments to Cabinet Regulation No. 529 'Ēku būvnoteikumi'",
+      "authority": "Cabinet of Ministers / Ministry of Economics",
+      "effective": "From 1 January 2025, for new third-group (most complex) publicly-funded buildings",
+      "summary": "A BIM model is a mandatory part of the building design for new, most-complex (third-group) buildings financed by public entities, from 1 January 2025.",
+      "ifc_level": "adopted",
+      "ifc_standards": "LVS EN ISO 16739 (IFC); mandatory BIM model component",
+      "qualification_level": "emerging",
+      "qualification_scheme": "Construction-specialist certification (not BIM-specific); emerging",
+      "sources": [
+        {
+          "title": "Ēku būvnoteikumi (MK Reg. 529) — likumi.lv",
+          "url": "https://likumi.lv/ta/id/269164-eku-buvnoteikumi",
+          "lang": "lv"
+        },
+        {
+          "title": "BIM mandatory for publicly-funded third-group buildings — em.gov.lv",
+          "url": "https://www.em.gov.lv/en/article/2025-building-information-modeling-bim-will-be-mandatory-publicly-funded-construction-third-group-buildings",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "iso2": "SI",
+      "iso3": "SVN",
+      "name": "Slovenia",
+      "region": "Europe",
+      "mandate_status": "mandatory",
+      "instrument": "Gradbeni zakon (GZ-1) — Construction Act (Uradni list RS 199/21)",
+      "authority": "National Assembly / Ministry for Natural Resources and Spatial Planning",
+      "effective": "Mandatory BIM from 1 January 2025 for complex, state-important public projects",
+      "summary": "The Construction Act makes BIM use obligatory from 2025 for project documentation of complex, state-important projects where the investor is a contracting authority.",
+      "ifc_level": "adopted",
+      "ifc_standards": "SIST EN ISO 16739 (IFC); GZ-1 project documentation",
+      "qualification_level": "none",
+      "qualification_scheme": "No notable national scheme confirmed",
+      "sources": [
+        {
+          "title": "Gradbeni zakon (GZ-1) — Uradni list RS",
+          "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2021-01-3972",
+          "lang": "sl"
+        },
+        {
+          "title": "GZ-1 consolidated text — PISRS",
+          "url": "https://pisrs.si/pregledPredpisa?id=ZAKO8244",
+          "lang": "sl"
+        }
+      ]
+    },
+    {
+      "iso2": "HU",
+      "iso3": "HUN",
+      "name": "Hungary",
+      "region": "Europe",
+      "mandate_status": "mandatory",
+      "instrument": "ÉKM Decree 31/2024 (VIII.22.) on BIM-based design, under Act LXIX of 2023",
+      "authority": "Ministry of Construction and Transport (ÉKM)",
+      "effective": "Phased: buildings now; railways from July 2026; water works 2027; utilities 2028",
+      "summary": "A binding decree imposes phased mandatory BIM on state construction investments — starting with building construction and extending sector by sector through 2028.",
+      "ifc_level": "adopted",
+      "ifc_standards": "MSZ EN ISO 16739 (IFC); ÉKM BIM requirements",
+      "qualification_level": "none",
+      "qualification_scheme": "No notable national scheme confirmed",
+      "sources": [
+        {
+          "title": "Decree 31/2024 (VIII.22.) ÉKM — njt.jog.gov.hu",
+          "url": "https://njt.jog.gov.hu/jogszabaly/2024-31-20-8X",
+          "lang": "hu"
+        }
+      ]
+    },
+    {
+      "iso2": "NO",
+      "iso3": "NOR",
+      "name": "Norway",
+      "region": "Europe",
+      "mandate_status": "partial",
+      "instrument": "Statsbygg BIM requirements (SIMBA); Statens vegvesen Håndbok V770",
+      "authority": "Statsbygg (state property agency); Statens vegvesen (roads)",
+      "effective": "SIMBA applies to new Statsbygg projects from 1 July 2022 (open IFC4)",
+      "summary": "No single national law, but the state property agency Statsbygg contractually mandates open-BIM (IFC) deliverables on its building projects, and the roads administration requires model-based delivery per Handbook V770.",
+      "ifc_level": "required",
+      "ifc_standards": "NS-EN ISO 16739 (IFC); openBIM IFC4 required (Statsbygg SIMBA)",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART Norway Professional Certification",
+      "sources": [
+        {
+          "title": "Statsbygg BIM requirements (SIMBA) — statsbygg.no",
+          "url": "https://simba.statsbygg.no/kravene",
+          "lang": "no"
+        },
+        {
+          "title": "Statens vegvesen — R110 Modellgrunnlag (ex-V770): modeller, maler & vedlegg — github.com/vegvesen",
+          "url": "https://github.com/vegvesen/R110-Modellgrunnlag/wiki",
+          "lang": "no"
+        }
+      ]
+    },
+    {
+      "iso2": "SE",
+      "iso3": "SWE",
+      "name": "Sweden",
+      "region": "Europe",
+      "mandate_status": "partial",
+      "instrument": "Trafikverket BIM strategy / 'BIM-trappan' information requirements",
+      "authority": "Trafikverket (Swedish Transport Administration)",
+      "effective": "Object-based information requirements applied to suppliers since ~2015 (per contract)",
+      "summary": "No national BIM law; Sweden's largest public construction client, Trafikverket, sets object-based (ISO 19650-inspired) information requirements on its suppliers via the BIM maturity ladder.",
+      "ifc_level": "adopted",
+      "ifc_standards": "SS-EN ISO 16739 (IFC); Trafikverket object-based requirements",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART Nordic Professional Certification",
+      "sources": [
+        {
+          "title": "Trafikverket BIM — bransch.trafikverket.se",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/teknik/byggnadsinformationsmodellering-bim/",
+          "lang": "sv"
+        }
+      ]
+    },
+    {
+      "iso2": "NL",
+      "iso3": "NLD",
+      "name": "Netherlands",
+      "region": "Europe",
+      "mandate_status": "partial",
+      "instrument": "RVB BIM Norm (Rijksvastgoedbedrijf); Object-type library (Rijkswaterstaat)",
+      "authority": "Rijksvastgoedbedrijf; Rijkswaterstaat",
+      "effective": "RVB BIM Norm since 2014; open IFC deliverables",
+      "summary": "No national statute; two large state clients contractually require BIM — the Central Government Real Estate Agency via the RVB BIM Norm, and Rijkswaterstaat via its object-type library on infrastructure tenders.",
+      "ifc_level": "required",
+      "ifc_standards": "NEN-EN ISO 16739 (IFC); openBIM IFC required (RVB Norm; Rijkswaterstaat OTL)",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART Benelux Professional Certification",
+      "sources": [
+        {
+          "title": "RVB BIM Norm v1.1 (PDF) — rijksvastgoedbedrijf.nl",
+          "url": "https://www.rijksvastgoedbedrijf.nl/binaries/rijksvastgoedbedrijf/documenten/richtlijn/2014/06/20/rvb-bim-norm-v1.1/RVB_BIM_Norm_v1.1.pdf",
+          "lang": "nl"
+        },
+        {
+          "title": "Objecttypenbibliotheek (OTL) — open.rijkswaterstaat.nl",
+          "url": "https://open.rijkswaterstaat.nl/overige-publicaties/2020/objecttypenbibliotheek-otl-versie-2-4-0/",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "iso2": "CH",
+      "iso3": "CHE",
+      "name": "Switzerland",
+      "region": "Europe",
+      "mandate_status": "partial",
+      "instrument": "Federal building bodies (KBOB) BIM requirements; armasuisse & SBB adopt BIM from 2025; federal EMBAG 'open by default' law (in force 2024)",
+      "authority": "KBOB; armasuisse Immobilien; SBB (federal railways); Confederation (EMBAG)",
+      "effective": "Major federal projects (armasuisse Immobilien) and SBB phase BIM in from 2025; EMBAG in force 1 Jan 2024",
+      "summary": "No BIM-specific national mandate and no single BIM regulator. The federal building and property bodies — coordinated via KBOB (armasuisse Immobilien, BBL, ETH-Rat, ASTRA) — apply BIM on major federal projects from 2025, and the federal railway SBB is phasing BIM in from 2025 (agency/owner-level requirements). Underpinning this, the federal EMBAG law (in force 1 Jan 2024) sets an 'open by default' principle for authorities — open-source software (Art. 9) and open government data (Art. 10) — which reinforces an open-standards / openBIM (IFC) approach across federal bodies, though EMBAG does not itself name BIM.",
+      "ifc_level": "adopted",
+      "ifc_standards": "SN EN ISO 16739 (IFC); SIA 2051; KBOB; federal 'open by default' law (EMBAG, 2024)",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART Switzerland (Bauen digital Schweiz) certification",
+      "sources": [
+        {
+          "title": "Digitalisierung und BIM — KBOB (kbob.admin.ch)",
+          "url": "https://www.kbob.admin.ch/de/digitalisierung-und-bim",
+          "lang": "de"
+        },
+        {
+          "title": "BIM bei armasuisse Immobilien — ar.admin.ch",
+          "url": "https://www.ar.admin.ch/de/bim-de",
+          "lang": "de"
+        },
+        {
+          "title": "BIM mit der SBB — company.sbb.ch",
+          "url": "https://company.sbb.ch/de/bahnentwicklung/zukunft-bahn/bim.html",
+          "lang": "de"
+        },
+        {
+          "title": "EMBAG — Bundesgesetz, Art. 9 (Open Source) & Art. 10 (Open Government Data) — fedlex.admin.ch",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2023/682/de",
+          "lang": "de"
+        }
+      ]
+    },
+    {
+      "iso2": "KZ",
+      "iso3": "KAZ",
+      "name": "Kazakhstan",
+      "region": "Eurasia",
+      "mandate_status": "partial",
+      "instrument": "Construction Code + RDS RK 1.02-04-2018 on information modelling",
+      "authority": "Committee for Construction / Ministry of Industry and Construction",
+      "effective": "Normative basis since 2018; applied to state-investment construction, phased",
+      "summary": "Kazakhstan has a binding normative basis requiring information modelling (TIM) for construction financed by state investment and quasi-public funds, codified in the Construction Code and RDS 1.02-04-2018.",
+      "ifc_level": "adopted",
+      "ifc_standards": "СТ РК ISO 16739-2017 (IFC schema); RDS 1.02-04-2018",
+      "qualification_level": "emerging",
+      "qualification_scheme": "Russian-language ТИМ training ecosystem; no national scheme",
+      "sources": [
+        {
+          "title": "RDS RK 1.02-04-2018 — adilet.zan.kz",
+          "url": "https://adilet.zan.kz/rus/docs/V1800017950",
+          "lang": "ru"
+        },
+        {
+          "title": "Construction Code of Kazakhstan — adilet.zan.kz",
+          "url": "https://adilet.zan.kz/rus/docs/K2600000253",
+          "lang": "ru"
+        }
+      ]
+    },
+    {
+      "iso2": "CA",
+      "iso3": "CAN",
+      "name": "Canada",
+      "region": "Americas",
+      "mandate_status": "partial",
+      "instrument": "Québec government BIM roadmap 2021–2026 (SQI)",
+      "authority": "Société québécoise des infrastructures (SQI), Québec",
+      "effective": "Roadmap April 2021 – March 2026; BIM a requirement phased in by public owners",
+      "summary": "There is no binding national mandate; BIM is industry-led federally. In Québec, the SQI government roadmap makes BIM a requirement that major public owners are progressively integrating into infrastructure projects.",
+      "ifc_level": "process",
+      "ifc_standards": "ISO 19650 (process) emphasis; IFC used; no ISO 16739 transposition",
+      "qualification_level": "certification",
+      "qualification_scheme": "CanBIM tiered individual certification; buildingSMART Canada",
+      "sources": [
+        {
+          "title": "Feuille de route gouvernementale pour le BIM — sqi.gouv.qc.ca",
+          "url": "https://www.sqi.gouv.qc.ca/feuille-de-route-gouvernementale-pour-le-bim",
+          "lang": "fr"
+        }
+      ]
+    },
+    {
+      "iso2": "ID",
+      "iso3": "IDN",
+      "name": "Indonesia",
+      "region": "Asia-Pacific",
+      "mandate_status": "partial",
+      "instrument": "PermenPUPR No. 22/PRT/M/2018 on State Building Construction",
+      "authority": "Ministry of Public Works and Housing (PUPR)",
+      "effective": "BIM required for non-simple state buildings > 2,000 m² and more than 2 floors",
+      "summary": "Indonesia mandates BIM for larger state buildings (over 2,000 m² and more than two storeys) via PermenPUPR 22/2018, with a 2021 Bina Marga circular extending BIM to roads and bridges.",
+      "ifc_level": "developing",
+      "ifc_standards": "PUPR BIM guidelines; standards in development",
+      "qualification_level": "emerging",
+      "qualification_scheme": "Provider BIM training; no national scheme",
+      "sources": [
+        {
+          "title": "Permen PUPR No. 22/PRT/M/2018 — peraturan.bpk.go.id",
+          "url": "https://peraturan.bpk.go.id/Details/159730/permen-pupr-no-22prtm2018-tahun-2018",
+          "lang": "id"
+        }
+      ]
+    },
+    {
+      "iso2": "AT",
+      "iso3": "AUT",
+      "name": "Austria",
+      "region": "Europe",
+      "mandate_status": "voluntary",
+      "instrument": "ÖNORM A 6241 BIM standard; ÖBB-Infrastruktur BIM programme",
+      "authority": "Austrian Standards; ÖBB-Infrastruktur AG",
+      "effective": "ÖNORM A 6241 since 2015; ÖBB applies BIM on complex projects",
+      "summary": "No binding national mandate; Austria has detailed BIM standards (ÖNORM A 6241) and major state agencies such as ÖBB-Infrastruktur apply BIM on complex projects, largely on a pilot/contractual basis.",
+      "ifc_level": "adopted",
+      "ifc_standards": "ÖNORM EN ISO 16739 (IFC); ÖNORM A 6241",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART Austria BIMcert (Foundation / Practitioner)",
+      "sources": [
+        {
+          "title": "ÖBB-Infrastruktur BIM — trackfwd.oebb.at",
+          "url": "https://trackfwd.oebb.at/de/artikel/building-information-modeling-bim",
+          "lang": "de"
+        },
+        {
+          "title": "ÖNORM A 6241-1 — Austrian Standards",
+          "url": "https://www.austrian-standards.at/en/shop/onorm-a-6241-1-2025-10-15~p4487039",
+          "lang": "de"
+        }
+      ]
+    },
+    {
+      "iso2": "UA",
+      "iso3": "UKR",
+      "name": "Ukraine",
+      "region": "Europe",
+      "mandate_status": "voluntary",
+      "instrument": "Cabinet of Ministers Order No. 152-р (2021) — Concept for implementing BIM",
+      "authority": "Cabinet of Ministers of Ukraine",
+      "effective": "Concept and action plan approved 17 February 2021",
+      "summary": "Ukraine approved an official government Concept and roadmap for implementing BIM technologies in 2021; BIM remains voluntary, framed as part of digital transformation and reconstruction.",
+      "ifc_level": "developing",
+      "ifc_standards": "DSTU BIM standards; national concept (2021)",
+      "qualification_level": "emerging",
+      "qualification_scheme": "BIM training; national concept (2021); no formal scheme",
+      "sources": [
+        {
+          "title": "Розпорядження КМУ № 152-р (2021) — zakon.rada.gov.ua",
+          "url": "https://zakon.rada.gov.ua/laws/show/152-2021-%D1%80#Text",
+          "lang": "uk"
+        }
+      ]
+    },
+    {
+      "iso2": "BY",
+      "iso3": "BLR",
+      "name": "Belarus",
+      "region": "Europe",
+      "mandate_status": "voluntary",
+      "instrument": "Code No. 289-З (2023) on construction activity; TKP technical codes",
+      "authority": "Ministry of Architecture and Construction",
+      "effective": "Code provisions in force from 23 July 2024",
+      "summary": "Belarus established a legal framework and a state information system promoting information modelling, supported by technical codes (TKP); a blanket mandatory requirement for all state projects is not yet fixed.",
+      "ifc_level": "developing",
+      "ifc_standards": "TKP technical codes; no schema transposition confirmed",
+      "qualification_level": "none",
+      "qualification_scheme": "No notable national scheme confirmed",
+      "sources": [
+        {
+          "title": "Code No. 289-З — etalonline.by",
+          "url": "https://etalonline.by/document/?regnum=hk2300289",
+          "lang": "ru"
+        },
+        {
+          "title": "Ministry of Architecture and Construction — mas.gov.by",
+          "url": "https://mas.gov.by/ru/tnpa_ru",
+          "lang": "ru"
+        }
+      ]
+    },
+    {
+      "iso2": "RO",
+      "iso3": "ROU",
+      "name": "Romania",
+      "region": "Europe",
+      "mandate_status": "voluntary",
+      "instrument": "Order No. 2224/2023 approving BIM technical regulation RTC 9-2022",
+      "authority": "Ministry of Development, Public Works and Administration",
+      "effective": "Guide in force 2023; national roadmap targets mandatory use around 2028",
+      "summary": "Romania issued an official BIM technical guide (RTC 9-2022) and a government roadmap; BIM is used case-by-case on major projects, with a general mandate targeted around 2028.",
+      "ifc_level": "adopted",
+      "ifc_standards": "SR EN ISO 16739 (IFC); RTC 9-2022 guide",
+      "qualification_level": "none",
+      "qualification_scheme": "No notable national scheme confirmed",
+      "sources": [
+        {
+          "title": "Ordin 2224/2023 (RTC 9-2022) — legislatie.just.ro",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/275734",
+          "lang": "ro"
+        }
+      ]
+    },
+    {
+      "iso2": "GR",
+      "iso3": "GRC",
+      "name": "Greece",
+      "region": "Europe",
+      "mandate_status": "voluntary",
+      "instrument": "National Strategy and Roadmap for BIM implementation",
+      "authority": "Ministry of Infrastructure and Transport",
+      "effective": "Strategy approved 2024",
+      "summary": "Greece approved a national BIM strategy and roadmap in 2024 to prepare the public sector — standards, legislative changes, training and pilots; BIM is not yet legally required.",
+      "ifc_level": "adopted",
+      "ifc_standards": "ELOT EN ISO 16739 (IFC); national BIM strategy",
+      "qualification_level": "none",
+      "qualification_scheme": "University training only; no national scheme",
+      "sources": [
+        {
+          "title": "National BIM Strategy & roadmap — opengov.gr (Min. of Infrastructure)",
+          "url": "https://www.opengov.gr/yme/?p=5318",
+          "lang": "el"
+        }
+      ]
+    },
+    {
+      "iso2": "IN",
+      "iso3": "IND",
+      "name": "India",
+      "region": "Asia-Pacific",
+      "mandate_status": "voluntary",
+      "instrument": "'Introducing BIM in CPWD' — Central Public Works Department publication",
+      "authority": "Central Public Works Department (Ministry of Housing & Urban Affairs)",
+      "effective": "Published July 2024; guidance, not a binding mandate",
+      "summary": "India has no national BIM mandate; the CPWD has issued an official publication encouraging BIM adoption (3D/4D/5D, ISO 19650) in central government works.",
+      "ifc_level": "developing",
+      "ifc_standards": "CPWD BIM guidance; ISO 19650 references",
+      "qualification_level": "emerging",
+      "qualification_scheme": "International certs (RICS / BSI / Autodesk) used; NSQF skill packs emerging",
+      "sources": [
+        {
+          "title": "CPWD Publications — 'Introducing BIM in CPWD' — cpwd.gov.in",
+          "url": "https://cpwd.gov.in/Documents/cpwd_publication.aspx",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "iso2": "TW",
+      "iso3": "TWN",
+      "name": "Taiwan",
+      "region": "Asia-Pacific",
+      "mandate_status": "voluntary",
+      "instrument": "PCC reference handbook for BIM in public construction; ABRI BIM guidelines",
+      "authority": "Public Construction Commission (PCC); Architecture & Building Research Institute",
+      "effective": "Handbooks from ~2017; applied per project by agencies",
+      "summary": "Taiwan's Public Construction Commission has issued official BIM handbooks and templates for public works and integrates BIM into procurement, but there is no single blanket statutory mandate.",
+      "ifc_level": "developing",
+      "ifc_standards": "PCC BIM handbooks; standards in development",
+      "qualification_level": "emerging",
+      "qualification_scheme": "University / provider BIM training; no national scheme",
+      "sources": [
+        {
+          "title": "Taipei City UDB — BIM as-built model attribute spec v2.0 (PDF) — udd.gov.taipei",
+          "url": "https://udd.gov.taipei/assets/50-10660/Documents/%E7%AB%A3%E5%B7%A5%E6%A8%A1%E5%9E%8B%E5%B1%AC%E6%80%A7%E8%B3%87%E6%96%99%E4%BD%9C%E6%A5%AD%E8%A6%8F%E7%AF%84v2.0_20181109_new.pdf",
+          "lang": "zh"
+        }
+      ]
+    },
+    {
+      "iso2": "MX",
+      "iso3": "MEX",
+      "name": "Mexico",
+      "region": "Americas",
+      "mandate_status": "partial",
+      "instrument": "Norma Técnica que regula el MIC (BIM) en obra pública de la SICT (DOF 15-02-2024); federal 'Estrategia MIC'",
+      "authority": "Secretaría de Infraestructura, Comunicaciones y Transportes (SICT)",
+      "effective": "SICT technical norm published 15 Feb 2024; MIC strategy phased over ~8 years",
+      "summary": "Mexico has no universal BIM law, but the federal infrastructure ministry (SICT) issued an official technical norm regulating Building Information Modelling (MIC) in its public-works projects, and the federal MIC strategy drives phased adoption on large public works.",
+      "ifc_level": "developing",
+      "ifc_standards": "Estrategia MIC; standards in development",
+      "qualification_level": "emerging",
+      "qualification_scheme": "Provider certs (AGC CM-BIM LATAM, Autodesk); no national standard",
+      "sources": [
+        {
+          "title": "Norma Técnica que regula el MIC/BIM (SICT) — DOF 15-02-2024 — sidof.segob.gob.mx",
+          "url": "https://sidof.segob.gob.mx/notas/5716954",
+          "lang": "es"
+        }
+      ]
+    },
+    {
+      "iso2": "UY",
+      "iso3": "URY",
+      "name": "Uruguay",
+      "region": "Americas",
+      "mandate_status": "voluntary",
+      "instrument": "Estrategia Nacional BIM (SIBIM)",
+      "authority": "Comité Nacional BIM / Ministry of Transport and Public Works (MTOP)",
+      "effective": "Strategy 2018–2025; aspiration to require BIM on public works by 2025",
+      "summary": "Uruguay is at the strategy stage: an MTOP-led national committee is implementing a BIM roadmap aiming for public-works BIM by 2025, but no binding instrument is yet in force.",
+      "ifc_level": "developing",
+      "ifc_standards": "National BIM strategy; standards in development",
+      "qualification_level": "emerging",
+      "qualification_scheme": "BIM training; no formal scheme",
+      "sources": [
+        {
+          "title": "Implementación de la metodología BIM en ANV — anv.gub.uy",
+          "url": "https://www.anv.gub.uy/avanzando-en-la-implementacion-de-la-metodologia-bim-en-anv",
+          "lang": "es"
+        }
+      ]
+    },
+    {
+      "iso2": "ZA",
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "region": "Africa",
+      "mandate_status": "voluntary",
+      "instrument": "SANS 19650 (ISO 19650) adopted; cidb National BIM Framework (in development)",
+      "authority": "Construction Industry Development Board (cidb); SABS",
+      "effective": "SANS 19650-1:2022 and -3:2023 published; no binding public-procurement mandate",
+      "summary": "No binding public-works BIM mandate; South Africa has adopted the ISO 19650 process standards as SANS 19650 via SABS, and the statutory cidb has committed to a National BIM Framework.",
+      "ifc_level": "process",
+      "ifc_standards": "SANS 19650 (ISO 19650 process) adopted via SABS; ISO 16739 / IFC not nationally adopted",
+      "qualification_level": "none",
+      "qualification_scheme": "SACPCMP / ECSA register built-environment professions generally; no BIM-specific scheme",
+      "sources": [
+        {
+          "title": "SANS 19650-1:2022 (ISO 19650 adopted via SABS) — store.sabs.co.za",
+          "url": "https://store.sabs.co.za/sans-19650-1-ed-1-00.html",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "iso2": "EG",
+      "iso3": "EGY",
+      "name": "Egypt",
+      "region": "Africa",
+      "mandate_status": "voluntary",
+      "instrument": "Egyptian Code of Building Information Modeling (BIM)",
+      "authority": "Housing & Building National Research Center (HBRC), Ministry of Housing",
+      "effective": "Code published as guidance; no legal mandate",
+      "summary": "Egypt has an official BIM code maintained by the statutory HBRC, used as guidance; no verified legal instrument requires BIM for government projects.",
+      "ifc_level": "developing",
+      "ifc_standards": "Egyptian Code of BIM (HBRC); references ISO/BIM; no ISO 16739 / IFC adoption",
+      "qualification_level": "emerging",
+      "qualification_scheme": "BIM training via HBRC / providers; no statutory scheme",
+      "sources": [
+        {
+          "title": "Egyptian Code of BIM — hbrc.edu.eg",
+          "url": "https://hbrc.edu.eg/en/research-activites/code-26-11-23",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "iso2": "PT",
+      "iso3": "PRT",
+      "name": "Portugal",
+      "region": "Europe",
+      "mandate_status": "voluntary",
+      "instrument": "PortugalBIM national strategy (RCM 89/2026); BIM mandate legislated for 2030 (DL 10/2024)",
+      "authority": "IMPIC, I.P. (with LNEC and IPQ)",
+      "effective": "Strategy approved May 2026; BIM mandatory for architecture projects from 1 Jan 2030 (DL 10/2024, Art. 17)",
+      "summary": "Portugal approved a national BIM strategy (PortugalBIM) and has legislated a binding requirement — from 1 January 2030 architecture projects must be modelled in BIM; public-works instructions already reference BIM.",
+      "ifc_level": "adopted",
+      "ifc_standards": "NP EN ISO 16739 (IFC); NP EN ISO 19650 (parts 1/2/3/5) via IPQ / CT 197",
+      "qualification_level": "emerging",
+      "qualification_scheme": "National training framework planned under PortugalBIM (IMPIC); no operating scheme yet",
+      "sources": [
+        {
+          "title": "PortugalBIM — Resolução Conselho de Ministros 89/2026 (PDF) — diariodarepublica.pt",
+          "url": "https://files.diariodarepublica.pt/1s/2026/05/09800/0000800013.pdf",
+          "lang": "pt"
+        }
+      ]
+    },
+    {
+      "iso2": "BE",
+      "iso3": "BEL",
+      "name": "Belgium",
+      "region": "Europe",
+      "mandate_status": "partial",
+      "instrument": "Flanders — AWV Standaardbestek 250 (v4.1): BIM requirements & OTL for road/infrastructure tenders; Belgian BIM Protocol; EN ISO 19650/16739 (NBN)",
+      "authority": "Agentschap Wegen en Verkeer (AWV, Flemish Government); NBN; Buildwise (WTCB)",
+      "effective": "AWV applies BIM-oriented working in its tenders (Standaardbestek 250 v4.1, OTL, as-built models); no single national mandate",
+      "summary": "No blanket national mandate, but a regional public authority requires it: the Flemish Agency for Roads and Traffic (AWV) builds BIM-oriented working into its tenders via Standaardbestek 250 v4.1 — standardised BIM requirements, an Object Type Library (OTL) and as-built model deliverables. Belgium has also adopted EN ISO 16739 (IFC) and EN ISO 19650 via NBN, and the Belgian BIM Protocol (Buildwise/WTCB) is widely used.",
+      "ifc_level": "adopted",
+      "ifc_standards": "NBN EN ISO 16739 (IFC); NBN EN ISO 19650 (+ Belgian national annexes)",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART Benelux Professional Certification",
+      "sources": [
+        {
+          "title": "AWV — BIM standard documents (Standaardbestek 250, BIM-protocol, OTL) — wegenenverkeer.be",
+          "url": "https://wegenenverkeer.be/zakelijk/bim/standaarddocumenten-nuttige-links",
+          "lang": "nl"
+        },
+        {
+          "title": "Belgian BIM Protocol & digital-construction standards — buildwise.be",
+          "url": "https://www.buildwise.be/fr/normes-et-reglementations/bim-digital-construction/",
+          "lang": "fr"
+        }
+      ]
+    },
+    {
+      "iso2": "IL",
+      "iso3": "ISR",
+      "name": "Israel",
+      "region": "MENA",
+      "mandate_status": "partial",
+      "instrument": "SI ISO 19650 adopted (SII); BIM required in major public clients' tenders",
+      "authority": "Standards Institution of Israel (SII); public clients (Netivei Israel, MoD, MoCH)",
+      "effective": "SI ISO 19650 Parts 1–2 (2020), Part 3 (2023); contractual per tender",
+      "summary": "No single national BIM law; Israel adopted the ISO 19650 standards via the SII, and major public clients — the national roads company Netivei Israel, the Ministry of Defense and the Ministry of Construction & Housing — require BIM contractually in their tenders.",
+      "ifc_level": "process",
+      "ifc_standards": "SI ISO 19650 (process) adopted by SII; IFC (ISO 16739) used, not separately adopted",
+      "qualification_level": "emerging",
+      "qualification_scheme": "SII BIM experts committee + SII college; no established certification scheme",
+      "sources": [
+        {
+          "title": "SII — BIM technical committee 511921 (SI ISO 19650) — sii.org.il",
+          "url": "https://www.sii.org.il/committee-page?id=511921",
+          "lang": "he"
+        }
+      ]
+    },
+    {
+      "iso2": "HR",
+      "iso3": "HRV",
+      "name": "Croatia",
+      "region": "Europe",
+      "mandate_status": "voluntary",
+      "instrument": "MPGI national BIM programme (EU BIM Task Group member since 2017; HR BIM TaskGroup)",
+      "authority": "Ministry of Physical Planning, Construction and State Assets (MPGI)",
+      "effective": "Official BIM programme since 2017; voluntary, no procurement mandate",
+      "summary": "No binding BIM mandate; Croatia runs an official BIM programme through MPGI — an EU BIM Task Group member since 2017 — and has adopted the EN ISO 16739 (IFC) and EN ISO 19650 standards via HZN.",
+      "ifc_level": "adopted",
+      "ifc_standards": "HRN EN ISO 16739-1:2024 (IFC); HRN EN ISO 19650 via HZN",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART Croatia chapter — openBIM certification",
+      "sources": [
+        {
+          "title": "BIM programme — mpgi.gov.hr",
+          "url": "https://mpgi.gov.hr/o-ministarstvu/djelokrug/graditeljstvo-98/bim-digitalna-revolucija-gradjevinskog-sektora/9203",
+          "lang": "hr"
+        }
+      ]
+    },
+    {
+      "iso2": "SA",
+      "iso3": "SAU",
+      "name": "Saudi Arabia",
+      "region": "MENA",
+      "mandate_status": "voluntary",
+      "instrument": "GSO ISO 19650-1:2025 adopted (SASO); buildingSMART KSA chapter (2024)",
+      "authority": "SASO / GSO; buildingSMART Saudi Arabia",
+      "effective": "GSO ISO 19650-1:2025 published; widely-reported 2024 'mandate' not confirmed officially",
+      "summary": "No national BIM mandate could be confirmed from an official government source — the widely-reported 2024 mandate appears only in secondary reports. Officially, Saudi Arabia adopted ISO 19650-1 as a Gulf Standard (GSO/SASO) and has a buildingSMART chapter in formation; giga-projects require BIM contractually.",
+      "ifc_level": "process",
+      "ifc_standards": "GSO ISO 19650-1:2025 adopted (SASO); ISO 16739 / IFC not confirmed adopted",
+      "qualification_level": "emerging",
+      "qualification_scheme": "buildingSMART Saudi Arabia chapter (in formation, 2024); certification programme being established",
+      "sources": [
+        {
+          "title": "GSO ISO 19650-1:2025 — gso.org.sa",
+          "url": "https://www.gso.org.sa/store/standards/GSO:976916/GSO%20ISO%2019650-1:2025",
+          "lang": "en"
+        },
+        {
+          "title": "buildingSMART Saudi Arabia — buildingsmartksa.org",
+          "url": "https://www.buildingsmartksa.org/",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "iso2": "IS",
+      "iso3": "ISL",
+      "name": "Iceland",
+      "region": "Europe",
+      "mandate_status": "voluntary",
+      "instrument": "EN ISO 16739 / EN ISO 19650 adopted (IST); BIM client-driven on public projects (FSRE)",
+      "authority": "Staðlaráð Íslands (IST); FSRE",
+      "effective": "Standards adopted (CEN); BIM voluntary / client-driven; model-based permitting under development",
+      "summary": "No national BIM mandate; Iceland has adopted the EN ISO 16739 (IFC) and EN ISO 19650 standards via IST, and BIM is used on larger public projects on a client-driven basis, with model-based building-permit submission under development.",
+      "ifc_level": "adopted",
+      "ifc_standards": "ÍST EN ISO 16739-1 (IFC); ÍST EN ISO 19650 via IST (CEN member)",
+      "qualification_level": "emerging",
+      "qualification_scheme": "buildingSMART Iceland chapter (developing, 2023); no national scheme",
+      "sources": [
+        {
+          "title": "FSRE (state construction & property agency) — island.is",
+          "url": "https://island.is/s/fsre",
+          "lang": "is"
+        },
+        {
+          "title": "BIM Ísland — national openBIM guidance (buildingSMART Iceland) — bim.is",
+          "url": "https://bim.is/",
+          "lang": "is"
+        }
+      ]
+    },
+    {
+      "iso2": "AU",
+      "iso3": "AUS",
+      "name": "Australia",
+      "region": "Asia-Pacific",
+      "mandate_status": "partial",
+      "instrument": "State digital-engineering frameworks (Transport for NSW DE Framework; Victorian Digital Asset Strategy)",
+      "authority": "Transport for NSW; Office of Projects Victoria / Dept. of Treasury and Finance (VIC)",
+      "effective": "NSW DE Framework since 2018; VDAS released 2020",
+      "summary": "No binding federal mandate; BIM / digital engineering is required by certain states on major infrastructure — notably Transport for NSW's Digital Engineering Framework and Victoria's Digital Asset Strategy.",
+      "ifc_level": "adopted",
+      "ifc_standards": "AS ISO 16739 (IFC schema); NATSPEC BIM; ISO 19650",
+      "qualification_level": "certification",
+      "qualification_scheme": "buildingSMART Australasia Professional Certification",
+      "sources": [
+        {
+          "title": "Transport for NSW — Digital Engineering Framework v4.0 (PDF) — transport.nsw.gov.au",
+          "url": "https://www.transport.nsw.gov.au/system/files/media/documents/2022/Digital-Engineering-Framework-v4.0.pdf",
+          "lang": "en"
+        },
+        {
+          "title": "Victorian Digital Asset Strategy (VDAS, PDF) — dtf.vic.gov.au",
+          "url": "https://www.dtf.vic.gov.au/sites/default/files/2026-05/Victorian-Digital-Asset-Strategy_0.pdf",
+          "lang": "en"
+        }
+      ]
+    }
+  ]
+}

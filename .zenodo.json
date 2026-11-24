@@ -1,0 +1,32 @@
+{
+  "title": "National BIM mandates: regulatory status by jurisdiction",
+  "upload_type": "dataset",
+  "version": "1.0",
+  "publication_date": "2026-06-14",
+  "description": "<p>Regulatory status of BIM (building information modelling) requirements in 59 jurisdictions \u2014 mandatory, partial or voluntary \u2014 with the IFC (ISO 16739) schema requirement, the professional-qualification landscape and a link to the official primary source for every entry (95 sources). Last reviewed 14 June 2026.</p><p>Interactive map: <a href=\"https://solebo.org/bim-mandates/\">World BIM Mandates Map</a>.</p>",
+  "creators": [
+    {
+      "name": "Shtaer, Ivan",
+      "affiliation": "Solebo"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "BIM",
+    "BIM mandate",
+    "BIM regulation",
+    "IFC",
+    "ISO 16739",
+    "ISO 19650",
+    "construction policy",
+    "public procurement"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://solebo.org/bim-mandates/",
+      "relation": "isSupplementTo"
+    }
+  ],
+  "language": "eng"
+}

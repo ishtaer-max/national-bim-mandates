@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "National BIM mandates: regulatory status by jurisdiction"
+version: "1.0"
+date-released: 2026-06-14
+license: CC-BY-4.0
+url: "https://solebo.org/bim-mandates/"
+repository-code: "https://github.com/ishtaer-max/national-bim-mandates"
+authors:
+  - family-names: Shtaer
+    given-names: Ivan
+    affiliation: Solebo
+keywords:
+  - BIM
+  - BIM mandate
+  - IFC
+  - ISO 16739
+  - ISO 19650
+  - construction regulation
